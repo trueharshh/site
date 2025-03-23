@@ -1,0 +1,34 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f9e3e3;
+    font-family: 'Arial', sans-serif;
+}
+.container {
+    text-align: center;
+}
+.buttons {
+    margin-top: 20px;
+}
+.yes-button, .no-button {
+    font-size: 1.5em;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: font-size 0.3s ease, transform 0.3s ease;
+}
+.yes-button {
+    background-color: #4caf50;
+    color: white;
+}
+.no-button {
+    background-color: #f44336;
+    color: white;
+}
+.yes-button:hover {
+    transform: scale(1.1);
+}
